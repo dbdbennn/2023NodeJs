@@ -21,4 +21,3 @@ arr.push('grape');
 const x = arr.pop();
 // console.log(x);
 // console.log(arr);
-

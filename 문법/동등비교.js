@@ -1,4 +1,3 @@
-
 // 동등연산자(abstract equility) 값만 비교
 console.log(1 == '1');
 
