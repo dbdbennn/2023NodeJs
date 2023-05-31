@@ -5,7 +5,7 @@ const ejs = require('ejs');
 
 // index.ejs에 넘겨줄 data
 const index = {
-  name: 'JWP',
+  name: 'YJE',
   here: '한국'
 };
 
