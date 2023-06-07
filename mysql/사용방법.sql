@@ -1,4 +1,6 @@
-show db
+SHOW databases;
+USE lck;
+SHOW tables;
 
 CREATE TABLE player (
     id INT NOT NULL AUTO_INCREMENT,
@@ -11,7 +13,7 @@ CREATE TABLE player (
     PRIMARY KEY (id)
 );
 
-drop table player;
+DROP TABLE player;
 
 INSERT INTO player VALUES(1, 'faker', 'mid', 't1', 10, 2, 6);
 INSERT INTO player VALUES(2, 'oner', 'jg', 't1', 2, 5, 14);
